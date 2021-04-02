@@ -2952,3 +2952,6 @@ img {
 .h-620 {
   height: 620px;
 }
+.table-cus-230>tbody>tr>td:first-child{
+  min-width: 230px;
+}
