@@ -68,7 +68,7 @@ jQuery(function($){
       infinite: true,
       arrows: true,
       speed: 500,     
-      autoplay: true,      
+      autoplay: true,
       cssEase: 'linear'
     });
 
