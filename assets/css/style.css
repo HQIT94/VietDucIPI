@@ -2850,8 +2850,8 @@ img {
 	color: #F00;
 	padding: 8px 30px 1px 75px;
 	border-radius: 39px;
-	left: -30px;
-	top: -29px;
+  left: -26px;
+  top: -10px;
 	position: absolute;
 	box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.4);
 }
