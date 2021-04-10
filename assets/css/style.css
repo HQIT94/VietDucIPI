@@ -2958,3 +2958,6 @@ img {
 .table-cus-230>tbody>tr>td:first-child{
   min-width: 230px;
 }
+.hover-a a:hover {
+  color: blue !important;
+}
