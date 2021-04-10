@@ -2358,7 +2358,10 @@ img {
   }
 }
 @media (max-width: 480px) {
-
+  #videodemo {
+    width: 340px;
+    height: 200px;
+  }
   #mu-header .mu-header-area .mu-header-top-left .mu-top-email {
     font-size: 12px;
     margin-top: 3px;
