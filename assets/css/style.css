@@ -2964,3 +2964,10 @@ img {
 .hover-a a:hover {
   color: blue !important;
 }
+.mu-blog-single-item .mu-blog-single-img img {
+  height: 200px;
+  width: 290px;
+}
+.mb-5 {
+  margin-bottom: 5rem;
+}
