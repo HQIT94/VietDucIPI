@@ -29,6 +29,13 @@
 #FOOTER SECTION
 #RESPONSIVE DESIGN
 */
+.mu-slider-mobile {display:none !important}
+
+@media all and (max-width: 499px) {
+    .mu-slider-desktop {display: none !important;}
+    .mu-slider-mobile {display: block !important;}
+}
+
 
 /* BASE - Base tyles, Variables, Mixins, etc. */
 body {
@@ -568,6 +575,7 @@ img {
   float: left;
   padding: 100px 0;
   width: 100%;
+  opacity: 85%;
 }
 #mu-abtus-counter .mu-abtus-counter-area {
   display: inline;
@@ -582,19 +590,19 @@ img {
   width: 100%;
 }
 #mu-abtus-counter .mu-abtus-counter-area .mu-abtus-counter-single span {
-  color: #337ab7;
+  color: #ef0f0f;
   display: inline-block;
   font-size: 50px;
 }
 #mu-abtus-counter .mu-abtus-counter-area .mu-abtus-counter-single h4 {
-  color: #337ab7;
+  color: #ef0f0f;
   font-size: 40px;
   font-weight: bold;
   margin-bottom: 5px;
   margin-top: 20px;
 }
 #mu-abtus-counter .mu-abtus-counter-area .mu-abtus-counter-single p {
-  color: #337ab7;
+  color: #ef0f0f;
   font-size: 18px;
   text-transform: uppercase;
 }
