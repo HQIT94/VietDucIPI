@@ -33,7 +33,10 @@
 
 @media all and (max-width: 499px) {
     .mu-slider-desktop {display: none !important;}
-    .mu-slider-mobile {display: block !important;}
+    .mu-slider-mobile {
+      display: block !important;
+      height: 218px !important;
+    }
 }
 
 

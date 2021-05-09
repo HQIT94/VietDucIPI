@@ -64,11 +64,10 @@ jQuery(function($){
   /* ----------------------------------------------------------- */    
 
     jQuery('#mu-slider').slick({
-      dots: false,
-      infinite: true,
-      arrows: true,
       speed: 500,     
       autoplay: true,
+      slidesToShow: 1,
+      slidesToScroll: 1,
       cssEase: 'linear'
     });
 
