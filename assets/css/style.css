@@ -37,6 +37,15 @@
       display: block !important;
       height: 218px !important;
     }
+
+    #mu-slider .slick-prev:before, #mu-slider .slick-next:before {
+      font-size: 15px !important;
+    }
+
+    #mu-slider .slick-prev, #mu-slider .slick-next {
+      height: 20px !important;
+      width: 20px !important;
+    }
 }
 
 
