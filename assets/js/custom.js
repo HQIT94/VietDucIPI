@@ -65,7 +65,7 @@ jQuery(function($){
 
     jQuery('#mu-slider').slick({
       speed: 500,     
-      // autoplay: true,
+      autoplay: true,
       slidesToShow: 1,
       slidesToScroll: 1,
       cssEase: 'linear'
